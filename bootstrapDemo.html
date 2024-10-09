@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Theme The Band</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body id="myPage" dadta-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Oundle RFC</a>
+                </div>
+                <div class="collapse navbar-collapse" id="mNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#myCarousel">HOME</a></li>
+                        <li><a href="#team">BAND</a></li>
+                        <li><a href="#upcoming">TOUR</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Merchendaise</a></li>
+                                <li><a href="#">Extras</a></li>
+                                <li><a href="#">Media</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+   
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!---Inidicators---->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!--- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="backshirt.jpg" alt="Team Huddle" width="1200" height="500">
+                <div class="carousel-caption">
+                    <h3>Team Huddle</h3>
+                    <p>Team Spirit is at the heart of our philosophy</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="pass.jpg" alt="Match Play" width="1200" height="500">
+                <div class="carousel-caption">
+                    <h3>Matches</h3>
+                    <p>Weekly Matches for ALL Age Groups</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="gym.jpg" alt="Match Play" width="1200" height="500">
+                <div class="carousel-caption">
+                    <h3>Gym</h3>
+                    <p>Gym Session @ Oundle School Performance Gym</p>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class = "glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class = "glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+    </div>
+        
+        
+        <div class="container text-center">
+            <h3>OUNDLE RFC</h3>
+            <p><em>We Love Ruggers!</em></p>
+            <p>Back in 1976, when flares were an acceptable fashion item, a group of rugby enthusiasts met at the Ship to form Oundle Rugby Club. Many founder members are still involved in the club and were players in Oundle's first cup match, losing to Kettering 137:0 - still a club record loss. And in those days tries were only worth 3 points!o
+            <div class="row" id="team">
+                <div class="col-sm-4">
+                    <p class="text-center"><strong>Kachra</strong></p> <br>
+                    <a href="#demo" data-toggle="collapse">
+                        <img src="kachra.jpg" class="img-circle person">
+                    </a>
+                    <div id="demo" class="collapse">
+                        <p>Chair</p>
+                        <p>Adult Male Contact</p>
+                        <p>07734768555</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <p class="text-center"><strong>Phillips</strong></p><br>
+                    <a href="#demo2" data-toggle="collapse">
+                        <img src="phillips.jpg" class="img-circle person">
+                    </a>
+                    <div id="demo2" class="collapse">
+                        <p>Discipline Secretary</p>
+                        <p>Women and Girls Contact</p>
+                        <p>+44 7734 218500</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <p class="text-center"><strong>Sagoe</strong></p><br>
+                    <a href="#demo3" data-toggle="collapse">
+                        <img src="sagoe.jpg" class="img-circle person">
+                    </a>
+                    <div id="demo3" class="collapse">
+                        <p>Communications</p>
+                        <p>(0) 7869 046125</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-1" id="upcoming">
+            <div class="container">
+                <h3 class="text-center">UPCOMING Matches</h3>
+                <p class="text-center">Get involved! Sign Up Now!</p>
+                <ul class="list-group">
+                    <li class="list-group-item">Match 1<span class="label label-danger">Sold Out!</span><span class="badge">Cup Game!</span></li>
+                    <li class="list-group-item">Match 2<span class="badge">Friendly</span></li>
+                    <li class="list-group-item">Match 3<span class="badge">Friendly</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="ORFC-ACADEMY.jpg" alt="">
+                    <p><strong>ORFC ACADEMY</strong></p>
+                    <p>Tue 10 Sep 2024</p>
+                    <button class="btn" data-target="#myModal" data-toggle="modal">Buy Tickets</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="orfcfamily.jpg" alt="">
+                    <p><strong>ORFC Family Day!</strong></p>
+                    <p>Tue 10 Sep 2024</p>
+                    <button class="btn" data-target="#myModal" data-toggle="modal">Buy Tickets</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="international.jpeg" alt="">
+                    <p><strong>Autumn Series International Tickets</strong></p>
+                    <p>Sun 28 Apr 2024</p>
+                    <button class="btn" data-target="#myModal" data-toggle="modal">Buy Tickets</button>
+                </div>
+            </div>
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+                                    <input type="number" class="form-control" id="psw" placeholder="How many?">
+                                </div>
+                                <div class="form-group">
+                                    <label for="usrname"><span class="glyphicon glyphicon-user"></span>Send To</label>
+                                    <input type="text" class="form-control" id="usrnname" placeholder="Enter email">
+                                </div>
+                                <button type="submit" class="btn btn-block">Pay <span class="glyphicon glyphicon-ok"></span></button>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                            <p>Need <a href="#">help?</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="contact">
+            <h3 class="text-center">Contanct</h3>
+            <p class="text-center"><em>Get Involved!</em></p>
+            <div class="row test">
+                <div class="col-md-4">
+                    <p>Want to play? Drop a note.</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span>Oundle, UK</p>
+                    <p><span class="glyphicon glyphicon-phone"></span>Phone: +44 1234 56789</p>
+                    <p><span class="glyphicon glyphicon-evnvelope"></span>Email: mail@mail.com</p>
+                </div>
+                <div class="col-me-8">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" row="5"></textarea>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <button class="btn pull-right" type="submit"> Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="text-center">
+            <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a><br><br>
+            <p>Bootstrap Theme Made by <a href="https://www.w3schools.com" data-toggle="tooltip" title="Visit w3schools">www.w3schools.com</a></p>
+        </footer>
+        <script>
+            $(document).ready(function(){
+                //Initialize Tooltip
+                $('[data-toggle="tooltip"]').tooltip();
+            })
+            $(document).ready(function(){
+                $(".navbar a, footer a[href='#myPage']").on('click', function(event){
+                    if(this.has !=="") {
+
+                        event.preventDefault();
+
+                        var hash = this.hash;
+
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 900, function(){
+
+                            window.location.hash = hash;
+                        }
+                    )
+                    }
+                })
+            })
+        </script>
+    </body>
+</html>
